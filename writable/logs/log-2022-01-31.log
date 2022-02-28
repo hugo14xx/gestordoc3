@@ -1,0 +1,84 @@
+CRITICAL - 2022-01-31 07:55:10 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\code2\app\Views\dentro.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 248)
+#1 C:\xampp\htdocs\code2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('dentro', Array, true)
+#4 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('dentro')
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 07:55:14 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\code2\app\Views\dentro.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 248)
+#1 C:\xampp\htdocs\code2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('dentro', Array, true)
+#4 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('dentro')
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 07:55:58 --> Undefined variable $datos
+#0 C:\xampp\htdocs\code2\app\Views\dentro.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 278)
+#1 C:\xampp\htdocs\code2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('dentro', Array, true)
+#4 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('dentro')
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 08:24:22 --> Invalid file: table.php
+#0 C:\xampp\htdocs\code2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table.php')
+#1 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('table', Array, true)
+#2 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('table')
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-31 08:26:11 --> Undefined variable $dato
+#0 C:\xampp\htdocs\code2\app\Views\tables.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\code2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('tables', Array, true)
+#4 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('tables')
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 08:26:35 --> Undefined variable $dato
+#0 C:\xampp\htdocs\code2\app\Views\tables.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\code2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('tables', Array, true)
+#4 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('tables')
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 08:26:36 --> Undefined variable $dato
+#0 C:\xampp\htdocs\code2\app\Views\tables.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\code2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\code2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('tables', Array, true)
+#4 C:\xampp\htdocs\code2\app\Controllers\Home.php(11): view('tables')
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 08:28:24 --> Invalid file: table.php
+#0 C:\xampp\htdocs\code2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table.php')
+#1 C:\xampp\htdocs\code2\system\Common.php(1089): CodeIgniter\View\View->render('table', Array, true)
+#2 C:\xampp\htdocs\code2\app\Controllers\Home.php(21): view('table')
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->pasa()
+#4 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
