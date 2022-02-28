@@ -1,0 +1,59 @@
+CRITICAL - 2022-02-28 07:57:19 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\code2\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\code2\app\Filters\Sessionadmin.php(16): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\code2\system\Filters\Filters.php(173): App\Filters\Sessionadmin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('inicio', 'before')
+#4 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-28 07:59:57 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\code2\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\code2\app\Filters\Sessionadmin.php(16): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\code2\system\Filters\Filters.php(173): App\Filters\Sessionadmin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('inicio', 'before')
+#4 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-28 08:00:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\code2\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\code2\app\Filters\Sessionadmin.php(16): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\code2\system\Filters\Filters.php(173): App\Filters\Sessionadmin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('inicio', 'before')
+#4 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-28 08:26:06 --> session(): Argument #1 ($val) must be of type ?string, array given, called in C:\xampp\htdocs\code2\app\Controllers\Home.php on line 63
+#0 C:\xampp\htdocs\code2\app\Controllers\Home.php(63): session(Array)
+#1 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 08:26:21 --> session(): Argument #1 ($val) must be of type ?string, array given, called in C:\xampp\htdocs\code2\app\Controllers\Home.php on line 63
+#0 C:\xampp\htdocs\code2\app\Controllers\Home.php(63): session(Array)
+#1 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 08:26:59 --> session(): Argument #1 ($val) must be of type ?string, array given, called in C:\xampp\htdocs\code2\app\Controllers\Home.php on line 63
+#0 C:\xampp\htdocs\code2\app\Controllers\Home.php(63): session(Array)
+#1 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 08:27:01 --> session(): Argument #1 ($val) must be of type ?string, array given, called in C:\xampp\htdocs\code2\app\Controllers\Home.php on line 63
+#0 C:\xampp\htdocs\code2\app\Controllers\Home.php(63): session(Array)
+#1 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 08:27:15 --> session(): Argument #1 ($val) must be of type ?string, array given, called in C:\xampp\htdocs\code2\app\Controllers\Home.php on line 63
+#0 C:\xampp\htdocs\code2\app\Controllers\Home.php(63): session(Array)
+#1 C:\xampp\htdocs\code2\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\code2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\code2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\code2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
